@@ -422,7 +422,7 @@ transition: all 0.5s ease-in-out 0.5s;
 
 .card .tag{
 background-color: rgb(226, 26, 26);
-z-index: 100;
+z-index: 7;
 position: absolute;
 left: 77%;
 top: 0%;
@@ -939,7 +939,11 @@ color: white !important;
         margin: 0;
         /* padding: 0 3rem; */
     }
-
+	
+    .floating-nav .nav ul li a{
+        font-size: 6vh;
+    }
+	
     .footer .footerContainer .midPart{
         margin-left: 0px !important;
     }
